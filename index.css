@@ -1,0 +1,76 @@
+body {
+    font-size: 15pt;
+}
+
+div{
+  margin-top: 30%;
+  margin-left: 10%;
+  position: relative;
+  background-image: url(./imag/paz.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 10%;
+  width: 50%;
+  height: 100%;
+  border-radius:14px;
+  padding: 5%;
+  box-shadow: 1px 1px 30px black;
+}
+#iniciar, #parar{
+ border-radius: 50px;
+ border: none;
+ padding: 10px;
+ font-size:0.5em;
+ background-color: rgb(46, 163, 46);
+ border-bottom: 20px;
+ 
+  
+}
+#iniciar:hover{
+    box-shadow: 1px 1px 20px aqua;
+}
+
+#parar:hover{
+    box-shadow: 1px 1px 20px aqua;
+}
+
+p{
+
+  font-size: 1em;
+  text-align: center;
+}
+h1{
+text-align: center;
+box-shadow: 1px 1px 20px greenyellow;
+
+}
+ img{
+  width:90%;
+ 
+  margin-left: 5%;
+  border: none;
+ 
+}
+
+dialog::backdrop{
+  background-color: rgba(97, 94, 94, 0.5);
+}
+dialog{
+  
+ border: none;
+ 
+ box-shadow: 0 0 0 1em rgba(0, 0, 0, 0.644);
+  width: 50%;
+}
+
+a{
+  display: flex;
+  text-decoration: none;
+  margin-top: 40px;
+}
+#fechar{
+  display:flex;
+   border: none;
+ border-radius: .5em;
+  background:green;
+}
